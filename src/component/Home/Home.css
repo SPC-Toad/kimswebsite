@@ -1,0 +1,111 @@
+.main-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40rem;
+}
+
+#left-container {
+    width: 18rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#intro-text {
+    color: var(--title-color);
+}
+
+#intro-button {
+    border-width: .1rem;
+    border-color: var(--description-color);
+    border-style: solid;
+    border-color: var(--description-color);
+    border-radius: .3rem;
+    font-size: var(--description-size);
+    width: 9rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    color:var(--title-color);
+}
+
+#intro-button:hover {
+    box-shadow: 0 0 .5rem .2rem var(--lighting-color);
+}
+
+#right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 18rem;
+    height: 20rem;
+}
+
+#profile-img {
+    margin-top: -1rem;
+    object-fit: cover;
+    width: 15rem;
+    height: 12rem;
+    animation: bobbing infinite 3s;
+}
+
+#intro-tag {
+    margin-top: 1rem;
+    font-size: .8rem;
+    color:var(--title-color);
+    border-width: .1rem;
+    border-style: solid;
+    border-color: var(--description-color);
+    width: 15rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: .1rem .2rem .3rem .01rem var(--lighting-color);
+}
+
+@keyframes bobbing {
+    0% {
+        transform: translate(0rem, 0%);
+    }
+    10% {
+        transform: translate(.3rem, .3rem);
+    }
+    30% {
+        transform: translate(.9rem, .9rem);
+    }
+    50% {
+        transform: translate(.6rem, .3rem);
+    }
+    70% {
+        transform: translate(-.3rem, -.3rem);
+    }
+    90% {
+        transform: translate(.1rem, .1rem);
+    }
+    100% {
+        transform: translate(0rem, 0rem);
+    }
+}

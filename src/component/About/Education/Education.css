@@ -1,0 +1,25 @@
+.education-container {
+    display: flex;
+    width: 14rem;
+    height: 18rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery-container {
+    width: 11rem;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#gallery-left-button {
+    margin-right: .5rem;
+    width: 1rem;
+}
+
+#gallery-right-button {
+    margin-left: .5rem;
+    width: 1rem;
+}

@@ -1,0 +1,32 @@
+.navbar-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-items {
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 13rem;
+    height: 3rem;
+}
+
+#clock-item {
+    font-size: 1.1rem;
+}
+
+#date-item {
+    font-size: 1.1rem;
+}
